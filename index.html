@@ -1,0 +1,1100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Me Advertising - Leading Signage Company in Dubai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #064e3b 100%);
+        }
+
+        .nav-link {
+            position: relative;
+        }
+
+            .nav-link:after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                bottom: -5px;
+                left: 0;
+                background-color: #4ade80;
+                transition: width 0.3s ease;
+            }
+
+            .nav-link:hover:after {
+                width: 100%;
+            }
+
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
+
+            .section-title:after {
+                content: '';
+                position: absolute;
+                width: 60%;
+                height: 4px;
+                bottom: -8px;
+                left: 20%;
+                background: linear-gradient(90deg, #22c55e, #10b981);
+                border-radius: 2px;
+            }
+
+        /* Mobile menu styles */
+        .mobile-menu {
+            transition: all 0.3s ease;
+            max-height: 0;
+            overflow: hidden;
+        }
+
+            .mobile-menu.open {
+                max-height: 1000px;
+            }
+
+
+    </style>
+</head>
+<body class="bg-gray-50">
+  <!-- Mobile Header -->
+<div class="gradient-bg sticky top-0 z-50 md:hidden">
+    <div class="px-4 py-3 flex items-center justify-between h-16">
+        <!-- Logo -->
+        <div class="flex items-center">
+            <h1 class="text-2xl font-extrabold tracking-wide text-white">
+                <span class="hover:text-green-500 transition-colors duration-300">BRAND</span>
+                <span class="text-green-500 hover:text-white transition-colors duration-300">ME</span>
+            </h1>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenuButton" class="text-white focus:outline-none">
+            <i class="ri-menu-line text-2xl"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu bg-gray-900 shadow-xl">
+        <!-- Main Navigation Links -->
+        <nav class="flex flex-col space-y-4 px-6 py-6">
+            <a href="#home" class="nav-link text-white hover:text-green-400 transition duration-300 py-2 border-b border-gray-700 hover:border-green-400">
+                Home
+            </a>
+            <a href="#signage" class="nav-link text-white hover:text-green-400 transition duration-300 py-2 border-b border-gray-700 hover:border-green-400">
+                Signage Solutions
+            </a>
+            <a href="#exhibition" class="nav-link text-white hover:text-green-400 transition duration-300 py-2 border-b border-gray-700 hover:border-green-400">
+                Exhibition Stands
+            </a>
+            <a href="#digital" class="nav-link text-white hover:text-green-400 transition duration-300 py-2 border-b border-gray-700 hover:border-green-400">
+                Digital Printing
+            </a>
+            <a href="#display" class="nav-link text-white hover:text-green-400 transition duration-300 py-2 border-b border-gray-700 hover:border-green-400">
+                Display Stands
+            </a>
+            <a href="#acrylic" class="nav-link text-white hover:text-green-400 transition duration-300 py-2 border-b border-gray-700 hover:border-green-400">
+                Acrylic Products
+            </a>
+            <a href="#contact" class="nav-link text-white hover:text-green-400 transition duration-300 py-2">
+                Contact Us
+            </a>
+        </nav>
+
+        <!-- Contact & Hours - Grouped for better spacing -->
+        <div class="px-6 pb-6 space-y-4">
+            <!-- Phone Number -->
+            <div class="flex items-center bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 px-4 py-3 rounded-xl shadow-md transition-all duration-300 active:scale-[1.02]">
+                <div class="p-2 mr-3 bg-white/20 rounded-full">
+                    <i class="ri-phone-fill text-white text-lg"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-green-100">Call us now</p>
+                    <p class="text-white font-medium">+971 50 468 4201</p>
+                </div>
+            </div>
+
+            <!-- Working Hours -->
+            <div class="flex items-center bg-gray-800/90 border border-gray-700/50 hover:border-gray-600 px-4 py-3 rounded-xl shadow-sm transition-colors duration-300">
+                <div class="p-2 mr-3 bg-green-900/30 rounded-full">
+                    <i class="ri-time-line text-green-400 text-lg"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-gray-400">Working hours</p>
+                    <p class="text-gray-200 font-medium">10:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Desktop Header and Navigation -->
+<div class="gradient-bg sticky top-0 z-50 hidden md:block bg-gray-900 shadow-lg">
+    <div class="max-w-7xl mx-auto px-6">
+       <!-- Main Header - Compact Version -->
+<div class="flex items-center justify-between py-3">
+    <!-- Logo -->
+    <div class="flex items-center">
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-wide">
+            <span class="text-white hover:text-green-400 transition-colors duration-300">BRAND</span>
+            <span class="text-green-400 hover:text-white transition-colors duration-300">ME</span>
+        </h1>
+    </div>
+
+    <!-- Contact Info Group -->
+    <div class="flex items-center space-x-4">
+        <!-- Contact Info Container -->
+        <div class="group relative">
+            <!-- Main Contact Bubble -->
+            <div class="flex items-center bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 px-4 py-2 rounded-lg shadow-md transition-all duration-300">
+                <div class="flex items-center">
+                    <div class="p-1.5 mr-2 bg-white/20 rounded-full group-hover:bg-white/30 transition">
+                        <i class="ri-phone-fill text-white text-sm"></i>
+                    </div>
+                    <div class="text-left">
+                        <div class="text-white font-medium text-sm leading-tight">+971 50 468 4201</div>
+                        <div class="flex items-center text-green-100 text-xs">
+                            <i class="ri-time-line mr-1"></i>
+                            <span>10AM - 5PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Navigation Bar - Compact Version -->
+        <div class="bg-gray-800 w-full">
+            <div class="max-w-7xl mx-auto px-4">
+                <nav class="text-white w-full py-3 flex flex-wrap justify-center gap-4 md:gap-6 text-sm font-semibold">
+                    <a href="#home" class="nav-link hover:text-green-400 transition duration-300 px-2">Home</a>
+                    <a href="#signage" class="nav-link hover:text-green-400 transition duration-300 px-2">Signage</a>
+                    <a href="#exhibition" class="nav-link hover:text-green-400 transition duration-300 px-2">Exhibition Stands</a>
+                    <a href="#digital" class="nav-link hover:text-green-400 transition duration-300 px-2">Digital Printing</a>
+                    <a href="#display" class="nav-link hover:text-green-400 transition duration-300 px-2">Display Stands</a>
+                    <a href="#acrylic" class="nav-link hover:text-green-400 transition duration-300 px-2">Acrylic Products</a>
+                    <a href="#contact" class="nav-link hover:text-green-400 transition duration-300 px-2">Contact Us</a>
+                    <a href="#blog" class="nav-link hover:text-green-400 transition duration-300 px-2">Blog</a>
+                    <a href="#gallery" class="nav-link hover:text-green-400 transition duration-300 px-2">Gallery</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Rest of your content remains exactly the same -->
+<section id="hero" class="relative overflow-hidden min-h-[90svh] flex items-center">
+    <!-- Video Background with Fallback -->
+    <div class="absolute inset-0 z-0">
+        <!-- Video (with fallback if video fails to load) -->
+        <video id="heroVideo" class="w-full h-full object-cover" autoplay muted playsinline loop>
+            <source src="your-video-file.mp4" type="video/mp4" style="background-attachment: fixed;">
+            <!-- Fallback image if video doesn't load -->
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D"
+                 alt="Background"
+                 class="w-full h-full object-cover">
+        </video>
+
+        <!-- Darker Gradient Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/30 z-10"></div>
+    </div>
+
+    <!-- Centered Content Container - more left aligned -->
+    <div class="relative w-full px-4 sm:px-6 pl-8 py-16 text-left z-10">
+        <div data-aos="fade-up" class="flex flex-col items-start ml-4 sm:ml-6">
+
+            <!-- Changed from items-center to items-start -->
+            <p class="text-2xl md:text-3xl font-bold mb-2 text-green-400">Signage Company in Dubai</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+                <span class="block">Creative Advertising</span>
+                <span class="block text-green-400 relative">
+                    Solutions That
+                    <span class="relative z-10">Stand Out</span>
+                    <span class="absolute inset-0  -z-0 "></span>
+                </span>
+            </h1>
+
+            <p class="text-lg text-gray-200 leading-relaxed mb-8 max-w-3xl">
+                Brand Me Advertising is a full service - design, fabrication, installation & maintenance provider of all types of indoor and outdoor signage solutions. Located in Dubai - UAE, we specialize in providing contemporary signage solutions that will help your business get noticed.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <!-- Removed justify-center to align buttons to left -->
+                <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md shadow-lg transform hover:scale-105 transition duration-300 font-medium min-w-[180px]">
+                    Learn More
+                </button>
+                <button class="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-md shadow-lg transform hover:scale-105 transition duration-300 font-medium min-w-[180px]">
+                    Get Free Quote
+                </button>
+            </div>
+        </div>
+    </div>
+</section>    
+    <!-- About Section with Enhanced Hover Effects -->
+    <section id="about" class="bg-white py-20 px-4 relative z-20">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-16" data-aos="fade-up">
+                <span class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-green-600 bg-green-100 rounded-full">WHO WE ARE</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Building Brands That Stand Out</h2>
+                <div class="max-w-2xl mx-auto">
+                    <p class="text-lg text-gray-600">
+                        With over 9 years of experience in Dubai's competitive market, we craft innovative signage solutions that elevate your brand presence.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Value Cards with Enhanced Hover -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 - Expertise -->
+                <div class="group relative bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 hover:border-green-300 hover:-translate-y-2" data-aos="fade-up">
+                    <div class="absolute inset-0 bg-gradient-to-br from-green-50/0 via-white/0 to-green-50/0 group-hover:from-green-50/40 group-hover:via-white/20 group-hover:to-green-50/40 transition-all duration-500"></div>
+                    <div class="relative p-8 h-full flex flex-col">
+                        <div class="flex justify-center mb-6">
+                            <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center group-hover:bg-green-200 group-hover:scale-110 transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-600 group-hover:text-green-700 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-4 group-hover:text-green-700 transition-colors duration-300">Why Choose Us?</h3>
+                        <p class="text-gray-600 mb-6 text-center group-hover:text-gray-800 transition-colors duration-300">
+                            Dubai's leading signage specialists with award-winning designs and precision craftsmanship.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="#portfolio" class="inline-flex items-center text-green-600 hover:text-green-700 font-medium transition-colors group-hover:font-semibold">
+                                See Our Work
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 - Services -->
+                <div class="group relative bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 hover:border-green-300 hover:-translate-y-2" data-aos="fade-up" data-aos-delay="100">
+                    <div class="absolute inset-0 bg-gradient-to-br from-green-50/0 via-white/0 to-green-50/0 group-hover:from-green-50/40 group-hover:via-white/20 group-hover:to-green-50/40 transition-all duration-500"></div>
+                    <div class="relative p-8 h-full flex flex-col">
+                        <div class="flex justify-center mb-6">
+                            <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center group-hover:bg-green-200 group-hover:scale-110 transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-600 group-hover:text-green-700 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-4 group-hover:text-green-700 transition-colors duration-300">Our Services</h3>
+                        <p class="text-gray-600 mb-6 text-center group-hover:text-gray-800 transition-colors duration-300">
+                            From concept to installation, we deliver complete signage solutions tailored to your brand.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="#services" class="inline-flex items-center text-green-600 hover:text-green-700 font-medium transition-colors group-hover:font-semibold">
+                                Explore Services
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 - Portfolio -->
+                <div class="group relative bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 hover:border-green-300 hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute inset-0 bg-gradient-to-br from-green-50/0 via-white/0 to-green-50/0 group-hover:from-green-50/40 group-hover:via-white/20 group-hover:to-green-50/40 transition-all duration-500"></div>
+                    <div class="relative p-8 h-full flex flex-col">
+                        <div class="flex justify-center mb-6">
+                            <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center group-hover:bg-green-200 group-hover:scale-110 transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-600 group-hover:text-green-700 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-800 mb-4 group-hover:text-green-700 transition-colors duration-300">Our Portfolio</h3>
+                        <p class="text-gray-600 mb-6 text-center group-hover:text-gray-800 transition-colors duration-300">
+                            Discover how we've transformed brands across Dubai with our innovative signage solutions.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="#gallery" class="inline-flex items-center text-green-600 hover:text-green-700 font-medium transition-colors group-hover:font-semibold">
+                                View Portfolio
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Stats Section with Parallax -->
+    <section class="py-16 bg-gray-900 text-white relative"
+             style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); background-attachment: fixed; background-size: cover; background-position: center;">
+        <!-- Semi-transparent overlay -->
+        <div class="absolute inset-0 bg-gray-900/50 z-0"></div>
+
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl md:text-5xl font-bold text-green-400 mb-2 ">500+</div>
+                    <div class="text-white uppercase text-sm tracking-wider font-semibold">Projects Completed</div>
+                </div>
+                <div class="p-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl md:text-5xl font-bold text-green-400 mb-2">200+</div>
+                    <div class="text-white-300 uppercase text-sm tracking-wider font-semibold">Happy Clients</div>
+                </div>
+                <div class="p-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-4xl md:text-5xl font-bold text-green-400 mb-2">9+</div>
+                    <div class="text-white-300 uppercase text-sm tracking-wider font-semibold">Years Experience</div>
+                </div>
+                <div class="p-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-4xl md:text-5xl font-bold text-green-400 mb-2">24/7</div>
+                    <div class="text-white-300 uppercase text-sm tracking-wider font-semibold">Customer Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+    </style>
+
+
+    <!-- Services Section - Full Width -->
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 section-title" data-aos="fade-up">Our Premium Services</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    We offer a comprehensive range of advertising and branding solutions to meet all your business needs.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Item 1 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md transition duration-300 hover:border-green-500 border border-transparent" data-aos="fade-up">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://i.pinimg.com/736x/ed/87/f1/ed87f14241b5af44ff00f814d5bcfd5f.jpg"
+                             alt="Signage Solutions"
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-white text-xl font-bold">Signage Solutions</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            Comprehensive signage solutions including design, fabrication, installation and maintenance for both indoor and outdoor applications.
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> LED Signage
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Channel Letters
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Light Boxes
+                            </li>
+                        </ul>
+                        <a href="#" class="mt-6 inline-flex items-center text-green-600 hover:text-green-700 font-medium">
+                            Learn More <i class="ri-arrow-right-line ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Item 2 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md transition duration-300 hover:border-green-500 border border-transparent" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://i.pinimg.com/1200x/96/40/f5/9640f528a88e0f51bd6f117bfb52e9b8.jpg"
+                             alt="Exhibition Stands"
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-white text-xl font-bold">Exhibition Stands</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            Custom exhibition stands designed to showcase your brand effectively at trade shows and exhibitions.
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Modular Stands
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Custom Built Stands
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Portable Displays
+                            </li>
+                        </ul>
+                        <a href="#" class="mt-6 inline-flex items-center text-green-600 hover:text-green-700 font-medium">
+                            Learn More <i class="ri-arrow-right-line ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Item 3 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md transition duration-300 hover:border-green-500 border border-transparent" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://www.momnet.com/wp-content/uploads/2024/01/AdobeStock_264640342.jpeg"
+                             alt="Digital Printing"
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-white text-xl font-bold">Digital Printing</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            High-quality digital printing services for all your marketing materials with vibrant colors and sharp details.
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Large Format Printing
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> UV Printing
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Vehicle Wraps
+                            </li>
+                        </ul>
+                        <a href="#" class="mt-6 inline-flex items-center text-green-600 hover:text-green-700 font-medium">
+                            Learn More <i class="ri-arrow-right-line ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Item 4 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md transition duration-300 hover:border-green-500 border border-transparent" data-aos="fade-up">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://i.pinimg.com/736x/22/a1/40/22a140af4ef0b7771e871ff27ac7c362.jpg"
+                             alt="Branding Solutions"
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-white text-xl font-bold">Branding Solutions</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            Comprehensive branding solutions to create a strong, recognizable identity for your business in the market.
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Corporate Identity
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Environmental Branding
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Retail Branding
+                            </li>
+                        </ul>
+                        <a href="#" class="mt-6 inline-flex items-center text-green-600 hover:text-green-700 font-medium">
+                            Learn More <i class="ri-arrow-right-line ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Item 5 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md transition duration-300 hover:border-green-500 border border-transparent" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                             alt="Interior Branding"
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-white text-xl font-bold">Interior Branding</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            Transform your interior spaces into effective brand environments that engage customers and employees alike.
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Office Branding
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Retail Interiors
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Wayfinding Systems
+                            </li>
+                        </ul>
+                        <a href="#" class="mt-6 inline-flex items-center text-green-600 hover:text-green-700 font-medium">
+                            Learn More <i class="ri-arrow-right-line ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Item 6 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md transition duration-300 hover:border-green-500 border border-transparent" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://i.pinimg.com/736x/7b/36/40/7b3640dc4e27d106884a9e8ff9125d82.jpg"
+                             alt="LED Solutions"
+                             class="w-full h-full object-cover transition duration-500 hover:scale-110" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                        <h3 class="absolute bottom-4 left-4 text-white text-xl font-bold">LED Solutions</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            Professional LED lighting solutions for both commercial and residential applications with energy efficiency.
+                        </p>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> LED Signage
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Architectural Lighting
+                            </li>
+                            <li class="flex items-center">
+                                <i class="ri-check-line text-green-500 mr-2"></i> Digital Displays
+                            </li>
+                        </ul>
+                        <a href="#" class="mt-6 inline-flex items-center text-green-600 hover:text-green-700 font-medium">
+                            Learn More <i class="ri-arrow-right-line ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section - Full Width -->
+    <section class="py-16 bg-gradient-to-r from-blue-800 to-green-700 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6" data-aos="fade-up">Ready to Elevate Your Brand?</h2>
+                <p class="text-xl text-gray-100 max-w-3xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="100">
+                    Let's discuss how we can create impactful advertising solutions for your business.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                    <button class="bg-white hover:bg-gray-100 text-gray-800 px-8 py-4 rounded-md shadow-lg transform hover:scale-105 transition duration-300 font-medium text-lg">
+                        Get Free Consultation
+                    </button>
+                    <button class="bg-transparent hover:bg-white/10 border-2 border-white text-white px-8 py-4 rounded-md shadow-lg transform hover:scale-105 transition duration-300 font-medium text-lg">
+                        Call Now: +971 50 468 4201
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Section - Full Width -->
+    <section id="innovation" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 section-title" data-aos="fade-up">Innovation at Its Core</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    We constantly push boundaries to deliver fresh, innovative advertising solutions that captivate audiences.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Content -->
+                <div class="space-y-8" data-aos="fade-right">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                                <i class="ri-lightbulb-flash-fill text-3xl text-green-600"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Creative Problem Solving</h3>
+                            <p class="text-gray-600">
+                                Our team thrives on solving complex branding challenges with innovative solutions that make your business stand out in the competitive Dubai market.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                                <i class="ri-flashlight-fill text-3xl text-green-600"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Cutting-Edge Technology</h3>
+                            <p class="text-gray-600">
+                                We invest in the latest technology and equipment to ensure your branding materials are produced with the highest quality and precision.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                                <i class="ri-team-fill text-3xl text-green-600"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Expert Team</h3>
+                            <p class="text-gray-600">
+                                Our team of designers, fabricators and installers bring years of experience and creativity to every project, ensuring exceptional results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="relative" data-aos="fade-left">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                             alt="Innovative Solutions"
+                             class="w-full h-auto">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-green-600 mb-2">500+</div>
+                            <div class="text-gray-800 font-medium">Successful Projects</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Special Offer Section - Full Width -->
+    <section class="py-16 bg-gradient-to-br from-green-600 to-green-800 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+                <!-- Left Content -->
+                <div class="max-w-2xl" data-aos="fade-right">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Special Limited Time Offer!</h2>
+                    <p class="text-xl text-green-100 mb-8">
+                        Get <span class="font-bold text-white">15% OFF</span> your first project with us when you sign up before August 31, 2023.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="ri-checkbox-circle-fill text-green-300 mr-2 text-xl"></i>
+                            <span>Premium quality materials</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="ri-checkbox-circle-fill text-green-300 mr-2 text-xl"></i>
+                            <span>Expert design consultation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="ri-checkbox-circle-fill text-green-300 mr-2 text-xl"></i>
+                            <span>Professional installation</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Card -->
+                <div class="w-full max-w-md" data-aos="fade-left">
+                    <div class="bg-white text-gray-800 rounded-xl shadow-2xl overflow-hidden">
+                        <div class="bg-gray-900 text-white py-4 px-6 text-center">
+                            <h3 class="text-xl font-bold">Claim Your Discount</h3>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-6">
+                                <div class="text-5xl font-bold text-green-600 mb-2">15% OFF</div>
+                                <p class="text-gray-600">Your First Project</p>
+                            </div>
+
+                            <form class="space-y-4">
+                                <div>
+                                    <input type="text" placeholder="Your Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <input type="email" placeholder="Email Address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                                </div>
+                                <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded-lg font-semibold transition duration-300 transform hover:scale-105">
+                                    Get My Discount
+                                </button>
+                            </form>
+
+                            <p class="text-xs text-gray-500 mt-4 text-center">
+                                Offer valid until August 31, 2023. Terms and conditions apply.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Gallery Section - Full Width -->
+    <section id="gallery" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 section-title" data-aos="fade-up">Our Portfolio</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    Explore some of our recent projects that showcase our creativity and expertise.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Portfolio Item 1 -->
+                <div class="relative group overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="https://i.pinimg.com/736x/80/ce/8e/80ce8e4138e25c7a0588ce83a2efff0f.jpg"
+                         alt="Project 1"
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+                        <div>
+                            <h3 class="text-white text-xl font-bold mb-2">Retail Store Branding</h3>
+                            <p class="text-gray-200">Complete branding solution for a luxury retail chain in Dubai Mall</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="relative group overflow-hidden rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://i.pinimg.com/1200x/71/35/94/71359428405e39d67dca30bcdd0361d5.jpg"
+                         alt="Project 2"
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+                        <div>
+                            <h3 class="text-white text-xl font-bold mb-2">Exhibition Stand</h3>
+                            <p class="text-gray-200">Custom exhibition stand for GITEX Technology Week 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="relative group overflow-hidden rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://i.pinimg.com/736x/8c/5f/b6/8c5fb6d8f98bcf9d66043a74f974d432.jpg"
+                         alt="Project 3"
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+                        <div>
+                            <h3 class="text-white text-xl font-bold mb-2">Office Signage</h3>
+                            <p class="text-gray-200">Corporate signage solution for a multinational company HQ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="relative group overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="https://i.pinimg.com/736x/02/ae/37/02ae37ca69f2f71242e9892afd29e3f9.jpg"
+                         alt="Project 4"
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+                        <div>
+                            <h3 class="text-white text-xl font-bold mb-2">LED Signage</h3>
+                            <p class="text-gray-200">Custom LED signage for a luxury hotel in Downtown Dubai</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="relative group overflow-hidden rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://i.pinimg.com/1200x/b5/79/53/b579538bec30ab9d17e38249c6e478a0.jpg"
+                         alt="Project 5"
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+                        <div>
+                            <h3 class="text-white text-xl font-bold mb-2">Interior Branding</h3>
+                            <p class="text-gray-200">Complete interior branding for a co-working space in DIFC</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="relative group overflow-hidden rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://i.pinimg.com/1200x/ab/2d/29/ab2d2927e661c325553cba74412e2ced.jpg"
+                         alt="Project 6"
+                         class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end p-6">
+                        <div>
+                            <h3 class="text-white text-xl font-bold mb-2">Vehicle Wraps</h3>
+                            <p class="text-gray-200">Fleet branding for a delivery service company in UAE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 font-medium">
+                    View Full Portfolio
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- About Us -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6 pb-2 border-b border-green-500 inline-block">About Us</h3>
+
+                    <p class="text-gray-300 mb-4">
+                        <span class="hover:text-green-400 transition font-bold text-xl italic" style="font-family: 'Playfair Display', serif">
+                            Brand Me
+                        </span>Advertising is one of UAE's leading advertising companies located in Dubai with over 9 years of experience in all areas of signage, exhibition stands, and digital printing.
+                    </p>
+                    <p class="text-gray-300">
+                        We provide innovative advertising solutions to help your business stand out in the competitive Dubai market.
+                    </p>
+                </div>
+
+                <!-- Our Products -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6 pb-2 border-b border-green-500 inline-block">Our Products</h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Signage Solutions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Exhibition Stands
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Acrylic Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Display Stands
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Light Boxes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Our Services -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6 pb-2 border-b border-green-500 inline-block">Our Services</h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Branding Solutions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Interior Branding
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> LED Solutions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Digital Printing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center text-gray-300 hover:text-green-400 transition">
+                                <i class="ri-arrow-right-s-line text-green-500 mr-2"></i> Exhibition Stand Design
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6 pb-2 border-b border-green-500 inline-block">Contact Us</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="ri-map-pin-2-fill text-green-500 mt-1 mr-3"></i>
+                            <p class="text-gray-300">Dubai, United Arab Emirates</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="ri-phone-fill text-green-500 mr-3"></i>
+                            <p class="text-gray-300">+971 50 468 4201</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="ri-mail-fill text-green-500 mr-3"></i>
+                            <p class="text-gray-300">info@brandmeadvertising.com</p>
+                        </div>
+
+                        <!-- Social Media -->
+                        <div class="pt-4">
+                            <h4 class="text-lg font-semibold mb-3">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-green-500 transition">
+                                    <i class="ri-facebook-fill text-xl"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-green-500 transition">
+                                    <i class="ri-instagram-line text-xl"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-green-500 transition">
+                                    <i class="ri-linkedin-fill text-xl"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-green-500 transition">
+                                    <i class="ri-twitter-x-fill text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright and Tagline -->
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-sm text-gray-400">
+                    © 2023 Brand Me Advertising. All Rights Reserved.
+                </p>
+                <p class="text-xs text-gray-600 mt-2">
+                    Exhibition Stand Builders in Dubai | Digital Printing in Dubai | Signage Company | Display Stands |
+                    Printing Services | Exhibition Stand Contractors | Advertising Company in Dubai
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition duration-300 z-50 opacity-0 pointer-events-none">
+        <i class="ri-arrow-up-line text-xl"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Scroll to top functionality
+        const scrollToTopButton = document.getElementById('scrollToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopButton.classList.remove('opacity-0', 'pointer-events-none');
+            } else {
+                scrollToTopButton.classList.add('opacity-0', 'pointer-events-none');
+            }
+        });
+
+        scrollToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <script>
+        // Mobile menu toggle functionality
+        const mobileMenuButton = document.getElementById('mobileMenuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            // Toggle mobile menu visibility
+            mobileMenu.classList.toggle('open');
+
+            // Change icon between menu and close
+            const icon = mobileMenuButton.querySelector('i');
+            if (mobileMenu.classList.contains('open')) {
+                icon.classList.remove('ri-menu-line');
+                icon.classList.add('ri-close-line');
+            } else {
+                icon.classList.remove('ri-close-line');
+                icon.classList.add('ri-menu-line');
+            }
+        });
+
+        // Close mobile menu when a link is clicked (optional)
+        document.querySelectorAll('#mobileMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                const icon = mobileMenuButton.querySelector('i');
+                icon.classList.remove('ri-close-line');
+                icon.classList.add('ri-menu-line');
+            });
+        });
+    </script>
+    <script>
+        const videoContainer = document.querySelector('#hero .absolute.inset-0.z-0');
+        const sources = ["b1.mp4", "b3.mp4"]; // Add full paths if needed
+        let currentVideo = 0;
+
+        // Create two video elements for crossfade
+        const video1 = document.createElement('video');
+        const video2 = document.createElement('video');
+
+        // Set common attributes
+        [video1, video2].forEach(video => {
+            video.className = 'w-full h-full object-cover absolute inset-0 transition-opacity duration-1000';
+            video.autoplay = true;
+            video.muted = true;
+            video.playsinline = true;
+            video.loop = false; // We'll handle looping manually
+        });
+
+        // Add videos to container (video1 on top initially)
+        video1.style.opacity = '1';
+        video2.style.opacity = '0';
+        videoContainer.prepend(video1);
+        videoContainer.prepend(video2);
+
+        function playNext() {
+            // Determine which video is currently visible
+            const activeVideo = currentVideo % 2 === 0 ? video1 : video2;
+            const nextVideo = currentVideo % 2 === 0 ? video2 : video1;
+
+            // Set source for next video
+            nextVideo.src = sources[(currentVideo + 1) % sources.length];
+            nextVideo.load();
+
+            // When next video is ready, start transition
+            nextVideo.addEventListener('canplay', function () {
+                nextVideo.currentTime = 0;
+                nextVideo.play();
+
+                // Crossfade effect
+                activeVideo.style.opacity = '0';
+                nextVideo.style.opacity = '1';
+
+                // When transition completes
+                setTimeout(() => {
+                    currentVideo++;
+                }, 1000);
+            }, { once: true });
+        }
+
+        // Start with first video
+        video1.src = sources[0];
+        video1.load();
+        video1.addEventListener('canplay', function () {
+            video1.play();
+        }, { once: true });
+
+        // Set up transition when current video ends
+        video1.addEventListener('ended', playNext);
+        video2.addEventListener('ended', playNext);
+    </script>
+
+
+</body>
+</html>
