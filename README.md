@@ -6,7 +6,8 @@ Built using **HTML5**, **Tailwind CSS**, and **AOS.js** (for animations), this p
 ---
 
 ## 🔗 Live Demo
-👉 **View the Website Here:** [https://reshma-421.github.io/brandme-advertising/](https://reshma-421.github.io/brandme-advertising/)
+👉 **View the Website Here:** [https://reshma-421.github.io/advertizing/](https://reshma-421.github.io/advertizing/)
+
 
 
 ## 🚀 Features
